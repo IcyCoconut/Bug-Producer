@@ -2,10 +2,10 @@
 #include <stdbool.h>
 
 int main() {
-    bool horst = true;
+    bool val = true;
     
     for (int i = 0; i < 10; i ++) {
-        printf("%d\t%s\n", i, horst);
+        printf("%d\t%d\n", i, val);
     }
 
     return 0;
