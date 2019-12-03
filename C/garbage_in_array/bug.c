@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define horst
+
 int main() {
     char str[10][20];
 

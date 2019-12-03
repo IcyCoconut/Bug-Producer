@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+#define horst
+
 int main() {
     bool val = true;
     
