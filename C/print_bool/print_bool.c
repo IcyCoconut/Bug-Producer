@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#define Horst
-
 int main() {
-    bool val = true;
-    printf("%s\n", val);
-
-    printf("This will not be executed\n");
+    bool horst = true;
+    
+    for (int i = 0; i < 10; i ++) {
+        printf("%d\t%s\n", i, horst);
+    }
 
     return 0;
 }
